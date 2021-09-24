@@ -1,10 +1,9 @@
 def pointDeRencontre(v1, v2, distance):
     # TODO faites les calculs intermediaires, vous pouvez initialiser des variables locales.
-
+    t= distance/(v1+v2)
     # TODO calculer la position de rencontre, assignez la valeur à la variable "positionRencontre"
-    positionRencontre =
-
-    return positionRencontre
+    pointDeRencontre= v1*t
+    return pointDeRencontre
 
 if __name__ == '__main__':
     v1 = int(input("Entrez v1: "))
